@@ -43,6 +43,8 @@ func createEvent(ctx *gin.Context) {
 		}
 		return
 	}
+	event.Id = 1
+	event.UserId = 2
 	fmt.Println(event)
-	ctx.JSON(http.StatusCreated, gin.H{"message": "event has been created successfully"})
+	ctx.JSON(http.StatusCreated, gin.H{"event": event})
 }
