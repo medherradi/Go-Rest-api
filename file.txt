@@ -1,1 +1,13 @@
-create a new server with go 
+create a new server with go REST API (Event Booking)
+
+Routes:
+   GET       /events
+   GET       /events/<id>
+   POST      /events                 (Auth required)
+   PUT       /events/<id>            (Auth required / only by creator)
+   DELETE    /events/<id>            (Auth required / only by creator)
+   POST      /signup
+   POST      /login   (JWT Token)
+   POST      /events/<id>/register   (Auth required)
+   DELETE    /events/<id>/register   (Auth required)
+
