@@ -1,4 +1,4 @@
-create a new server with go REST API (Event Booking)
+create a new server with go and Gin Framework REST API (Event Booking)
 
 Routes:
    GET       /events
